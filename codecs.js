@@ -68,6 +68,8 @@ var CODECS = [
 	{ codec:  "mvd4", description: 	"Multiview coding", type: "Video" },
 	{ codec:  "oksd", description: 	"OMA Keys", type: "Metadata" },
 	{ codec:  "Opus", description: 	"Opus audio coding", type: "Audio" },
+	{ codec:  "opus", description: 	"Opus audio coding", type: "Audio" },
+	{ codec:  "vorbis", description: 	"vorbis audio coding", type: "Audio" },
 	{ codec:  "pm2t", description: 	"Protected MPEG-2 Transport", type:  "Hint" },
 	{ codec:  "prtp", description: 	"Protected RTP Reception", type:  "Hint" },
 	{ codec:  "raw ", description: 	"Uncompressed audio", type: "Audio" },	

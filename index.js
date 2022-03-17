@@ -52,9 +52,13 @@ window.onload = function() {
 	}
 	addParagraph(results, "audio_codecs", "Checking support for audio codecs with parameters");
 	table = createTableHeader(results);
-	for(i in AUDIO_CODECS) {
-		var codec = AUDIO_CODECS[i].codec;
-		addMimeChecks(table, 'audio/mp4; codecs="'+codec+'"', AUDIO_CODECS[i].description);
+	for(i in AUDIO_CODECS_MP4) {
+		var codec = AUDIO_CODECS_MP4[i].codec;
+		addMimeChecks(table, 'audio/mp4; codecs="'+codec+'"', AUDIO_CODECS_MP4[i].description);
+	}
+	for(i in AUDIO_CODECS_OGG) {
+		var codec = AUDIO_CODECS_OGG[i].codec;
+		addMimeChecks(table, 'audio/ogg; codecs="'+codec+'"', AUDIO_CODECS_OGG[i].description);
 	}
 	addParagraph(results, "avc_codecs", "Checking support for AVC codecs with parameters");
 	table = createTableHeader(results);

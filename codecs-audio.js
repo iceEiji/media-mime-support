@@ -1,5 +1,5 @@
 
-var AUDIO_CODECS = [			
+var AUDIO_CODECS_MP4 = [
 	{ codec: "mp4a.40", 	description: "MPEG-4 AAC"},
 	{ codec: "mp4a.40.1", 	description: "MPEG-4 AAC Main"},
 	{ codec: "mp4a.40.2", 	description: "MPEG-4 AAC-LC"},
@@ -41,3 +41,8 @@ var AUDIO_CODECS = [
 	{ codec: "mp3", 	description: "MPEG-1/2 Part 3 - QuickTime File Format"},
 ];
 
+
+var AUDIO_CODECS_OGG = [
+	{ codec: "opus", 	description: "opus audio coding"},
+	{ codec: "vorbis", 	description: "vorbis audio coding"},
+];
